@@ -1,4 +1,4 @@
 @extends ('layouts.app')
 @section('content')
-    <Survey />
+    <all-surveys />
 @endsection

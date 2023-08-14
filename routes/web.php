@@ -13,4 +13,12 @@ use App\Http\Controllers\SurveyController;
 |
 */
 
-Route::get('/', [SurveyController::class, 'index']);
+Route::get('/', function () {
+    return view('home');
+});
+
+Route::get('/results', function () {
+    return view('surveys');
+});
+
+
